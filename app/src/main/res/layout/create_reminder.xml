@@ -26,6 +26,7 @@
                 android:textSize="30sp" />
 
             <EditText
+
                 android:id="@+id/addTitle"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -38,6 +39,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
+
                 android:id="@+id/addDescription"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -48,6 +50,7 @@
                 android:ems="10"
                 android:hint="Description"
                 android:inputType="textPersonName" />
+
 
             <DatePicker
                 android:id="@+id/addDate"

@@ -13,6 +13,6 @@ interface taskdao {
     fun delete(
         task :  task
     )
-    @Query("select * from reminder_data")
+    @Query("SELECT * FROM reminder_data")
     fun getAll(): List<task>
 }
