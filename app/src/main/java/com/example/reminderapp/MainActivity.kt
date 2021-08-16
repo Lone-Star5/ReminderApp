@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         createReminder = findViewById(R.id.reminder_create)
         viewReminder = findViewById(R.id.reminder_view)
 
@@ -24,7 +23,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         viewReminder.setOnClickListener {
-            Toast.makeText(this, "Feature Under Development", Toast.LENGTH_SHORT).show()
+            val intent2 = Intent(this,ViewReminder::class.java)
+            startActivity(intent2)
         }
     }
 }
